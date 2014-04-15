@@ -1,0 +1,72 @@
+/*
+Theme Name: Anjoman Portal
+Author: Mahla Delpak
+Author URI: https://github.com/mahlad
+Description: Wordpress Theme for Anjoman Modiran Mohandesi.
+Version: 0.1
+*/
+/*---------General setting----------*/
+@font-face {
+    font-family:'BNazanin';/*تعریف یک نام برای فونت*/
+    src:url('font/BNazanin.eot');/*اکسپلورر 9 به بعد*/
+    src:local('font/BNazanin'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('font/BNazanin'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('font/BNazanin.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('font/BNazanin.woff') format('woff'),/*مرورگر های جدید*/
+        url('font/BNazanin.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('font/BNazanin.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+	}
+	@font-face {
+    font-family:'BTitrBold';/*تعریف یک نام برای فونت*/
+    src:url('font/BTitrBold.eot');/*اکسپلورر 9 به بعد*/
+    src:local('font/BTitrBold'),/*بررسی نصب بودن فونت در سیستم کاربر*/
+        local('font/BTitrBold'),/*برای برخی از مرورگرها مانند سافاری*/
+        url('font/BTitrBold.eot?#iefix') format('embedded-opentype'),/*هک برای اکسپلورر 8 و ماقبل*/
+        url('font/BTitrBold.woff') format('woff'),/*مرورگر های جدید*/
+        url('font/BTitrBold.ttf') format('truetype'),/*تمام مرورگرها به جزء اکسپلورر*/
+        url('font/BTitrBold.svg#BYekan') format('svg');/*نسخه های قدیمی سیستم عامل iOS*/
+	}
+	body{
+		background: #ffdfff;
+		font-family:'BNazanin', Tahoma, Geneva, sans-serif;
+        direction: rtl;
+	}
+	.container{
+		box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+		min-height: 750px;
+        background:#fff; 
+	}
+/*----------Header---------*/
+    nav.topbar{
+        height: 40px;
+        background: #444;
+        color: #ddd;
+        padding: 0 40px;
+    }
+    header{
+        background: #eee;
+        height: 155px;
+    }
+    nav.mainmenu{
+        height: 70px;
+        background: #444;
+        color: #fff;
+    }
+    div.content div.slideshow{
+        background:red;
+        height: 300px; 
+    }
+    div.message{
+        height: 80px;
+        background:url('images/dots.png') repeat; 
+    }
+    div.news{
+        height: 250px;
+    }
+    div.line{
+        margin: 30px;
+        border-top: 1px solid rgba(0,0,0,0.1);
+    }
+    div.marketting{
+        height: 300px;
+    }
